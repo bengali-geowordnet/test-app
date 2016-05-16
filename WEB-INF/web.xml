@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+	<servlet>
+		<servlet-name>root</servlet-name>
+		<servlet-class>RootServlet</servlet-class>
+	</servlet>
+		<servlet-mapping>
+		<servlet-name>root</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>hello</servlet-name>
+		<servlet-class>HelloServlet</servlet-class>
+	</servlet>
+		<servlet-mapping>
+		<servlet-name>hello</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>form</servlet-name>
+		<servlet-class>FormServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>form</servlet-name>
+		<url-pattern>/form</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>insert</servlet-name>
+		<servlet-class>DatabaseInsert</servlet-class>
+	</servlet>
+		<servlet-mapping>
+		<servlet-name>insert</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+</web-app>
